@@ -9,9 +9,17 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@digitalbazaar/ed25519-signature-2020": "^5.4.0",
+    "@digitalbazaar/ed25519-verification-key-2020": "^4.2.0",
+    "@digitalbazaar/security-document-loader": "^3.1.0",
+    "@digitalbazaar/vc": "^7.2.0",
+    "jsonld": "^8.3.3",
+    "jsonld-signatures": "^11.5.0",
+    "lucide-react": "^0.552.0",
+    "next": "16.0.1",
     "react": "19.2.0",
     "react-dom": "19.2.0",
-    "next": "16.0.1"
+    "uuid": "^13.0.0"
   },
   "devDependencies": {
     "eslint": "^9",
