@@ -196,7 +196,7 @@ export default function VerifyCredential() {
                       <User size={48} style={{ color: '#6b7280' }} />
                     </div>
                     <div>
-                      <h4 style={styles.patientName}>{cs.name || 'Unknown Patient'}</h4>
+                      <h4 style={styles.patientName}>{cs.name || 'User'}</h4>
                       <p style={styles.patientId}>DID: {cs.id || 'N/A'}</p>
                     </div>
                   </div>
@@ -209,6 +209,9 @@ export default function VerifyCredential() {
                         <strong>Issuer</strong>
                         <p style={styles.infoValue}>
                           {result.data.issuer?.name || result.data.issuer?.id || 'Unknown'}
+                        </p>
+                        <p style={styles.infoValue}>
+                          {result.data.issuer?.id || 'Unknown'}
                         </p>
                       </div>
                     </div>
